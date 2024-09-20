@@ -190,11 +190,11 @@ input[type=tel] {
 }
 
 .bg-primary-dark {
-  background: #ff4528;
+  background: rgb(255, 68.8414634146, 40);
 }
 
 .bg-primary-darker {
-  background: #f42100;
+  background: rgb(244, 32.7317073171, 0);
 }
 
 .bg-dark {
@@ -325,7 +325,7 @@ a:focus {
 
 @media (max-width: 575px) {
   h2,
-.h2 {
+  .h2 {
     font-size: 1.8rem;
     line-height: 42px;
   }
@@ -631,7 +631,7 @@ ul.dropdown-menu li {
 }
 @media (max-width: 1023px) {
   #navbar.nav-text-white .navbar-link,
-#navbar.nav-text-white .navbar-brand {
+  #navbar.nav-text-white .navbar-brand {
     color: black;
   }
 }
@@ -938,7 +938,7 @@ ul.dropdown-menu li {
 }
 @media (max-width: 768px) {
   .case-img,
-.case-content {
+  .case-content {
     padding: 0;
   }
 }
@@ -1417,7 +1417,7 @@ ul.dropdown-menu li {
 
 @media (max-width: 575px) {
   .comment-content,
-.comment-area-box {
+  .comment-area-box {
     display: block !important;
   }
 }
@@ -1748,15 +1748,3 @@ ul.dropdown-menu li {
   color: #FF715B;
 }
 /*# sourceMappingURL=style.css.map */
-.profile-container {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.client-img img {
-  width: 60px; /* Set a uniform width */
-  height: 60px; /* Set a uniform height */
-  border-radius: 50%; /* Make it round */
-  object-fit: cover; /* Ensures the image fits without distortion */
-}

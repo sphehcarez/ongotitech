@@ -7,17 +7,20 @@
  // GITHUB: https://github.com/themefisher/
 -->
 
-<html lang="en">
+<html lang="zxx">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="description" content="Ongoti Tech, business, company, agency, modern, bootstrap4, tech, software">
-  <meta name="author" content="Ongoti Tech">
+  <meta name="description" content="Orbitor,business,company,agency,modern,bootstrap4,tech,software">
+  <meta name="author" content="themefisher.com">
   
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- theme meta -->
+  <meta name="theme-name" content="orbitor-bulma" />
 
-  <title>About Ongoti Tech</title>
+  <title>Orbitor - Software Company Template</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
@@ -28,8 +31,8 @@
   <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
   <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
   <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
-  <link rel="stylesheet" href="plugins/modal-video/modal-video.css">
-  <link rel="stylesheet" href="plugins/animate-css/animate.css">
+    <link rel="stylesheet" href="plugins/modal-video/modal-video.css">
+    <link rel="stylesheet" href="plugins/animate-css/animate.css">
   <!-- Slick Slider  CSS -->
   <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
   <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
@@ -70,8 +73,18 @@
 						<a class="navbar-link" href="project.html">Portfolio</a>
 					</li> -->
 					<li class="navbar-item">
-						<a class="navbar-link" href="service.html">Service</a>
+						<a class="navbar-item" href="service.html">Service</a>
 					</li>
+
+					<!-- <li class="navbar-item has-dropdown">
+						<a class="navbar-link">Pages</a>
+						<div class="navbar-dropdown">
+							<a class="navbar-item" href="service.html">Service</a>
+							<a class="navbar-item" href="pricing.html">Pricing</a>
+							<a class="navbar-item" href="blog-sidebar.html">Blog with sidebar</a>
+							<a class="navbar-item" href="blog-single.html">Blog Single</a>
+						</div>
+					</li> -->
 
 					<li class="navbar-item">
 						<a class="navbar-link" href="contact.html">Contact</a>
@@ -87,7 +100,7 @@
 	</div>
 </div>
 
-<section class="page-title bg-1">
+<!-- <section class="page-title bg-1">
    <div class="container">
       <div class="columns">
          <div class="column is-12">
@@ -104,14 +117,37 @@
          </div>
       </div>
    </div>
+</section> -->
+<section class="page-title bg-1">
+   <div class="container">
+      <div class="columns">
+         <div class="column is-12">
+            <div class="block has-text-centered">
+               <span class="text-white">{{ description }}</span>
+               <h1 class="is-capitalize text-lg">{{ title }}</h1>
+
+               <ul class="list-inline breadcumb-nav">
+                  <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
+                  <li class="list-inline-item"><span class="text-white">/</span></li>
+                  <li class="list-inline-item">
+                     <a href="{{ parentUrl }}" class="text-white-50">{{ parentTitle }}</a>
+                  </li>
+                  <li class="list-inline-item"><span class="text-white">/</span></li>
+                  <li class="list-inline-item"><a href="#" class="text-white-50">{{ description }}</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
 </section>
 
-<section class="section">
+
+<section class="section ">
 	<div class="container">
 		<div class="columns is-desktop is-justify-content-center">
 			<div class="column is-10-desktop">
 				<div class="heading has-text-centered">
-					<h2>Empowering Your Business with <span class="text-color">Innovative Solutions</span></h2>
+					<h2>We help entreprenuers <br>starts up and turn <span class="text-color">their ideas into</span> produtcs</h2>
 				</div>
 			</div>
 		</div>
@@ -119,22 +155,22 @@
 			<div class="column is-4-widescreen is-4-desktop is-6-tablet">
 				<div class="counter-item counter--style has-text-centered mb-5 mb-lg-0">
 					<i class="ti-thumb-up"></i>
-					<h2 class="mb-0 mt-3"><span class="counter-stat font-weight-bold">10</span> +</h2>
-					<p>Projects Completed</p>
+					<h2 class="mb-0 mt-3"><span class="counter-stat font-weight-bold">1730</span> +</h2>
+					<p>Project Done</p>
 				</div>
 			</div>
 			<div class="column is-4-widescreen is-4-desktop is-6-tablet">
 				<div class="counter-item counter--style has-text-centered mb-5 mb-lg-0">
 					<i class="ti-face-smile"></i>
-					<h2 class="mb-0 mt-3"><span class="counter-stat font-weight-bold">15 </span>+ </h2>
-					<p>Users Worldwide</p>
+					<h2 class="mb-0 mt-3"><span class="counter-stat font-weight-bold">125 </span>M </h2>
+					<p>User Worldwide</p>
 				</div>
 			</div>
 			<div class="column is-4-widescreen is-4-desktop is-6-tablet">
 				<div class="counter-item counter--style has-text-centered">
 					<i class="ti-cup"></i>
-					<h2 class="mb-0 mt-3"><span class="counter-stat font-weight-bold">1</span></h2>
-					<p>Award Won</p>
+					<h2 class="mb-0 mt-3"><span class="counter-stat font-weight-bold">14</span></h2>
+					<p>Award Winner </p>
 				</div>
 			</div>
 		</div>
@@ -146,22 +182,22 @@
 		<div class="columns is-desktop is-align-items-center">
 			<div class="column is-6-desktop">
 				<div class="feature-list">
-					<h2 class="mb-5">Leading the Way in Tech Innovation</h2>
-					<p>Ongoti Tech Solutions has been at the forefront of technological advancements since our inception. We specialize in delivering innovative and tailored solutions to meet the unique needs of our clients.</p>
+					<h2 class="mb-5">Gcolumnsing Software Company Since 2008</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint earum, eos esse non error facilis ad, maiores eum quae vero libero voluptas! Reprehenderit sunt similique, quae quidem voluptatem odit natus.</p>
 
 					<ul class="list-unstyled mt-5 mb-6">
-						<li><i class="ti-check mr-4"></i>Custom software solutions tailored to your business needs.</li>
-						<li><i class="ti-check mr-4"></i>Comprehensive data analytics and AI solutions.</li>
-						<li><i class="ti-check mr-4"></i>Dedicated IT growth strategies to boost your business.</li>
+						<li><i class="ti-check mr-4"></i>Create and manage any process for your business needs.</li>
+						<li><i class="ti-check mr-4"></i>Create and manage any process for your business needs.</li>
+						<li><i class="ti-check mr-4"></i>Full functionality without needed to install software.</li>
 					</ul>
 
-					<a href="service.html" class="btn btn-main">Explore Our Services <i class="fa fa-angle-right ml-3"></i></a>
+					<a href="service.html" class="btn btn-main">All Services<i class="fa fa-angle-right ml-3"></i></a>
 				</div>
 			</div>
 
 			<div class="column is-6-desktop">
 				<div class="video-img">
-					<img src="images/about/img-34.png" alt="About Ongoti Tech" class="w-100">
+					<img src="images/about/img-34.png" alt="" class="w-100">
 					<a data-video-id="sXoKSD8QJEA" class="video-play"><i class="ti-control-play"></i></a>
 				</div>
 			</div>
@@ -174,8 +210,8 @@
 		<div class="columns is-desktop is-justify-content-center">
 			<div class="column is-6-desktop">
 				<div class="heading has-text-centered mb-50">
-					<h2 class="mb-5">Our Leadership Team</h2>
-					<p>At Ongoti Tech, our team of experts is dedicated to driving your business forward through innovative technology solutions.</p>
+					<h2 class="mb-5">Our Team</h2>
+					<p>Today’s users expect effortless experiences. Don’t let essential people and processes stay stuck in the past. Speed it up, skip the hassles</p>
 				</div>
 			</div>
 		</div>
@@ -183,7 +219,7 @@
 		<div class="columns is-multiline">
 			<div class="column is-3-desktop is-6-tablet">
 				<div class="team-block mb-5 mb-lg-0">
-					<img src="images/team/03-1.jpg" alt="John Marshal" class="w-100">
+					<img src="images/team/03-1.jpg" alt="" class="w-100">
 
 					<h4 class="mt-4 mb-0">John Marshal</h4>
 					<p>Founder</p>
@@ -192,7 +228,7 @@
 
 			<div class="column is-3-desktop is-6-tablet">
 				<div class="team-block mb-5 mb-lg-0">
-					<img src="images/team/01-3.jpg" alt="Marshal Root" class="w-100">
+					<img src="images/team/01-3.jpg" alt="" class="w-100">
 
 					<h4 class="mt-4 mb-0">Marshal Root</h4>
 					<p>Marketing Head</p>
@@ -201,15 +237,15 @@
 
 			<div class="column is-3-desktop is-6-tablet">
 				<div class="team-block mb-5 mb-lg-0">
-					<img src="images/team/03-1.jpg" alt="Siamon John" class="w-100">
+					<img src="images/team/03-1.jpg" alt="" class="w-100">
 
-					<h4 class="mt-4 mb-0">Siamon John</h4>
+					<h4 class="mt-4 mb-0">Siamon john</h4>
 					<p>Co-ordinator</p>
 				</div>
 			</div>
 			<div class="column is-3-desktop is-6-tablet">
 				<div class="team-block">
-					<img src="images/team/01-3.jpg" alt="Rishat Ahmed" class="w-100">
+					<img src="images/team/01-3.jpg" alt="" class="w-100">
 
 					<h4 class="mt-4 mb-0">Rishat Ahmed</h4>
 					<p>Senior Developer</p>
@@ -219,13 +255,14 @@
 	</div>
 </section>
 
+
 <section class="section awards bg-light">
 	<div class="container">
 		<div class="columns">
 			<div class="column is-8-desktop">
 				<div class="why-content">
-					<h2 class="mb-4">Our Achievements</h2>
-					<p class="mb-5">Ongoti Tech Solutions has been recognized for its excellence and innovation in the tech industry. Here are some of our most notable achievements.</p>
+					<h2 class="mb-4">Honors and awards</h2>
+					<p class="mb-5">Dicta cupiditate, incidunt quia obcaecati itaque cumque, nostrum ipsum est voluptatibus, porro provident a quam quibusdam. Ducimus possimus, nesciunt minima magni aspernatur.</p>
 				</div>
 			</div>
 		</div>
@@ -234,56 +271,55 @@
 			<div class="column is-2-widescreen is-3-desktop is-4-tablet">
 				<div class="award-img-block">
 					<div class="award-img">
-						<img src="images/about/02.png" alt="Award 1" class="w-100">
+						<img src="images/about/02.png" alt="" class="w-100">
 					</div>
 				</div>
 			</div>
 			<div class="column is-2-widescreen is-3-desktop is-4-tablet">
 				<div class="award-img-block">
 					<div class="award-img">
-						<img src="images/about/03.png" alt="Award 2" class="w-100">
+						<img src="images/about/03.png" alt="" class="w-100">
 					</div>
 				</div>
 			</div>
 			<div class="column is-2-widescreen is-3-desktop is-4-tablet">
 				<div class="award-img-block">
 					<div class="award-img">
-						<img src="images/about/04.png" alt="Award 3" class="w-100">
+						<img src="images/about/04.png" alt="" class="w-100">
 					</div>
 				</div>
 			</div>
 			<div class="column is-2-widescreen is-3-desktop is-4-tablet">
 				<div class="award-img-block">
 					<div class="award-img">
-						<img src="images/about/05.png" alt="Award 4" class="w-100">
+						<img src="images/about/05.png" alt="" class="w-100">
 					</div>
 				</div>
 			</div>
 			<div class="column is-2-widescreen is-3-desktop is-4-tablet">
 				<div class="award-img-block">
 					<div class="award-img">
-						<img src="images/about/06.png" alt="Award 5" class="w-100">
+						<img src="images/about/06.png" alt="" class="w-100">
 					</div>
 				</div>
 			</div>
 			<div class="column is-2-widescreen is-3-desktop is-4-tablet">
 				<div class="award-img-block">
 					<div class="award-img">
-						<img src="images/about/07.png" alt="Award 6" class="w-100">
+						<img src="images/about/07.png" alt="" class="w-100">
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-
 <section class="section testimonial">
 	<div class="container">
 		<div class="columns is-desktop">
 			<div class="column is-8-desktop">
 				<div class="heading">
-					<h2 class="mb-5">What Our Clients Say</h2>
-					<p>Ongoti Tech Solutions has consistently delivered exceptional service. Here's what our clients have to say about their experience with us.</p>
+					<h2 class="mb-5">What they say about us</h2>
+					<p>They are truely amazing in the industry ,molestiae expedita aspernatur officia, similique minima laudantium. Corrupti ipsa perspiciatis commodi nesciunt rerum mollitia enim voluptate!</p>
 				</div>
 			</div>
 		</div>
@@ -294,77 +330,77 @@
 			<div class="column is-12 testimonial-wrap">
 				<div class="testimonial-block">
 					<p>
-						Working with Ongoti Tech Solutions has been a game changer for our business. Their insights into the KZN market have been invaluable, and their commitment to excellence is unmatched.
+						Maiores quasi placeat harum itaque, ducimus cumque quas expedita hic. Qui ullam iste provident mollitia expedita facilis fuga repellat.
 					</p>
 
 					<div class="client-info is-flex is-align-items-center">
 						<div class="client-img">
-							<img src="images/team/testimonial1.jpg" alt="Thabo Dlamini" class="w-100">
+							<img src="images/team/testimonial1.jpg" alt="" class="w-100">
 						</div>
 						<div class="info">
-							<h6>Thabo Dlamini</h6>
-							<span>Durban, South Africa</span>
+							<h6>John Partho</h6>
+							<span>Newyork USA</span>
 						</div>
 					</div>
 				</div>
 
 				<div class="testimonial-block">
 					<p>
-						Ongoti Tech Solutions truly understands the unique needs of businesses in KZN. Their tailored approach has significantly improved our operational efficiency.
+						Maiores quasi placeat harum itaque, ducimus cumque quas expedita hic. Qui ullam iste provident mollitia expedita facilis fuga repellat.
 					</p>
 
 					<div class="client-info is-flex is-align-items-center">
 						<div class="client-img">
-							<img src="images/team/testimonial2.jpg" alt="Nokuthula Mkhize" class="w-100">
+							<img src="images/team/testimonial2.jpg" alt="" class="w-100">
 						</div>
 						<div class="info">
-							<h6>Nokuthula Mkhize</h6>
-							<span>Pietermaritzburg, South Africa</span>
+							<h6>John Partho</h6>
+							<span>Newyork USA</span>
 						</div>
 					</div>
 				</div>
 				<div class="testimonial-block">
 					<p>
-						From start to finish, the team at Ongoti Tech Solutions has been professional, responsive, and committed to our success. Their expertise in the KZN region is evident in every project they undertake.
+						Maiores quasi placeat harum itaque, ducimus cumque quas expedita hic. Qui ullam iste provident mollitia expedita facilis fuga repellat.
 					</p>
 
 					<div class="client-info is-flex is-align-items-center">
 						<div class="client-img">
-							<img src="images/team/testimonial1.jpg" alt="Vusi Khumalo" class="w-100">
+							<img src="images/team/testimonial1.jpg" alt="" class="w-100">
 						</div>
 						<div class="info">
-							<h6>Vusi Khumalo</h6>
-							<span>Richards Bay, South Africa</span>
+							<h6>John Partho</h6>
+							<span>Newyork USA</span>
 						</div>
 					</div>
 				</div>
 				<div class="testimonial-block">
 					<p>
-						The partnership with Ongoti Tech Solutions has been transformative. Their local knowledge combined with their tech-savvy approach has driven tangible results for our company.
+						Maiores quasi placeat harum itaque, ducimus cumque quas expedita hic. Qui ullam iste provident mollitia expedita facilis fuga repellat.
 					</p>
 
 					<div class="client-info is-flex is-align-items-center">
 						<div class="client-img">
-							<img src="images/team/testimonial2.jpg" alt="Lindiwe Zulu" class="w-100">
+							<img src="images/team/testimonial2.jpg" alt="" class="w-100">
 						</div>
 						<div class="info">
-							<h6>Lindiwe Zulu</h6>
-							<span>Umhlanga, South Africa</span>
+							<h6>John Partho</h6>
+							<span>Newyork USA</span>
 						</div>
 					</div>
 				</div>
 				<div class="testimonial-block">
 					<p>
-						We highly recommend Ongoti Tech Solutions for any business looking to thrive in the digital space. Their expertise and dedication have been pivotal in our success.
+						Maiores quasi placeat harum itaque, ducimus cumque quas expedita hic. Qui ullam iste provident mollitia expedita facilis fuga repellat.
 					</p>
 
 					<div class="client-info is-flex is-align-items-center">
 						<div class="client-img">
-							<img src="images/team/testimonial1.jpg" alt="Simphiwe Ndlovu" class="w-100">
+							<img src="images/team/testimonial1.jpg" alt="" class="w-100">
 						</div>
 						<div class="info">
-							<h6>Simphiwe Ndlovu</h6>
-							<span>Ballito, South Africa</span>
+							<h6>John Partho</h6>
+							<span>Newyork USA</span>
 						</div>
 					</div>
 				</div>
@@ -382,7 +418,8 @@
 					<div class="logo mb-4">
 						<h3>Ongoti Tech</h3>
 					</div>
-					<p>Ongoti Tech Solutions is dedicated to crafting technology solutions that are not just functional, but transformative.</p>
+					<p>Ongoti Tech Solutions is dedicated to crafting technology solutions that are not just functional, but transformative. Our goal is to collaborate with businesses to turn their digital aspirations into reality, leveraging our expertise in custom software development, 
+						mobile applications, and cloud services to create sustainable growth.</p>
 				</div>
 			</div>
 			<div class="column is-2-widescreen is-6-desktop is-6-tablet ml-auto">
@@ -412,8 +449,8 @@
 			<div class="column is-3-widescreen is-6-desktop is-6-tablet">
 				<div class="widget widget-contact">
 					<h4 class="is-capitalize mb-4">Get in Touch</h4>
-					<h6><a href="tel:+27 786 422 415" > <i class="ti-headphone-alt mr-3"></i>info@ongotitech.co.za</a></h6>
-					<h6><a href="mailto:info@ongotitech.co.za" > <i class="ti-mobile mr-3"></i>+27 786 422 415</a></h6>
+					<h6><a href="tel:+23-345-67890" > <i class="ti-headphone-alt mr-3"></i>info@ongotitech.co.za</a></h6>
+					<h6><a href="mailto:support@gmail.com" > <i class="ti-mobile mr-3"></i>+27 786 422 415</a></h6>
 
 					<ul class="list-inline footer-socials mt-5">
 						<li class="list-inline-item"><a href="https://www.facebook.com"><i class="ti-facebook mr-2"></i></a></li>
@@ -428,7 +465,7 @@
 			<div class="columns">
 				<div class="column is-6-widescreen">
 					<div class="copyright">
-						&copy; Copyright Reserved to <span class="text-color">Ongoti Tech</span> by <a href="https://themefisher.com/" target="_blank">Ongoti Tech</a>
+						&copy; Copyright Reserved to <span class="text-color">Ongoti Tech</span> by <a href="https://ongotitech.co.za/" target="_blank">Ongoti Tech</a>
 					</div>
 				</div>
 			</div>
