@@ -161,7 +161,7 @@ input[type="tel"] {
 }
 
 .bg-primary-darker {
-   background: darken($primary-color, 20%);
+   background: color.adjust($primary-color, $lightness: -20%);
 }
 
 .bg-dark {
